@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A91F1EA1973D9250082A2EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A91F1E91973D9250082A2EF /* Foundation.framework */; };
+		1A91F1EC1973D9250082A2EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A91F1EB1973D9250082A2EF /* CoreGraphics.framework */; };
+		1A91F1EE1973D9250082A2EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A91F1ED1973D9250082A2EF /* UIKit.framework */; };
+		1A91F1F41973D9250082A2EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F1F21973D9250082A2EF /* InfoPlist.strings */; };
+		1A91F1F61973D9250082A2EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F1F51973D9250082A2EF /* main.m */; };
+		1A91F1FA1973D9250082A2EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F1F91973D9250082A2EF /* AppDelegate.m */; };
+		1A91F1FD1973D9250082A2EF /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F1FB1973D9250082A2EF /* Main_iPhone.storyboard */; };
+		1A91F2001973D9250082A2EF /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F1FE1973D9250082A2EF /* Main_iPad.storyboard */; };
+		1A91F2031973D9250082A2EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F2021973D9250082A2EF /* ViewController.m */; };
+		1A91F2051973D9250082A2EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F2041973D9250082A2EF /* Images.xcassets */; };
+		1A91F20C1973D9250082A2EF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A91F20B1973D9250082A2EF /* XCTest.framework */; };
+		1A91F20D1973D9250082A2EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A91F1E91973D9250082A2EF /* Foundation.framework */; };
+		1A91F20E1973D9250082A2EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A91F1ED1973D9250082A2EF /* UIKit.framework */; };
+		1A91F2161973D9250082A2EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F2141973D9250082A2EF /* InfoPlist.strings */; };
+		1A91F2181973D9250082A2EF /* googleLoginDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F2171973D9250082A2EF /* googleLoginDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A91F20F1973D9250082A2EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A91F1DE1973D9250082A2EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A91F1E51973D9250082A2EF;
+			remoteInfo = googleLoginDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A91F1E61973D9250082A2EF /* googleLoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = googleLoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A91F1E91973D9250082A2EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A91F1EB1973D9250082A2EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A91F1ED1973D9250082A2EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1A91F1F11973D9250082A2EF /* googleLoginDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "googleLoginDemo-Info.plist"; sourceTree = "<group>"; };
+		1A91F1F31973D9250082A2EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A91F1F51973D9250082A2EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A91F1F71973D9250082A2EF /* googleLoginDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "googleLoginDemo-Prefix.pch"; sourceTree = "<group>"; };
+		1A91F1F81973D9250082A2EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A91F1F91973D9250082A2EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A91F1FC1973D9250082A2EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		1A91F1FF1973D9250082A2EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		1A91F2011973D9250082A2EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1A91F2021973D9250082A2EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1A91F2041973D9250082A2EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1A91F20A1973D9250082A2EF /* googleLoginDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = googleLoginDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A91F20B1973D9250082A2EF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1A91F2131973D9250082A2EF /* googleLoginDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "googleLoginDemoTests-Info.plist"; sourceTree = "<group>"; };
+		1A91F2151973D9250082A2EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A91F2171973D9250082A2EF /* googleLoginDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = googleLoginDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A91F1E31973D9250082A2EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A91F1EC1973D9250082A2EF /* CoreGraphics.framework in Frameworks */,
+				1A91F1EE1973D9250082A2EF /* UIKit.framework in Frameworks */,
+				1A91F1EA1973D9250082A2EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A91F2071973D9250082A2EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A91F20C1973D9250082A2EF /* XCTest.framework in Frameworks */,
+				1A91F20E1973D9250082A2EF /* UIKit.framework in Frameworks */,
+				1A91F20D1973D9250082A2EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A91F1DD1973D9250082A2EF = {
+			isa = PBXGroup;
+			children = (
+				1A91F1EF1973D9250082A2EF /* googleLoginDemo */,
+				1A91F2111973D9250082A2EF /* googleLoginDemoTests */,
+				1A91F1E81973D9250082A2EF /* Frameworks */,
+				1A91F1E71973D9250082A2EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A91F1E71973D9250082A2EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A91F1E61973D9250082A2EF /* googleLoginDemo.app */,
+				1A91F20A1973D9250082A2EF /* googleLoginDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A91F1E81973D9250082A2EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A91F1E91973D9250082A2EF /* Foundation.framework */,
+				1A91F1EB1973D9250082A2EF /* CoreGraphics.framework */,
+				1A91F1ED1973D9250082A2EF /* UIKit.framework */,
+				1A91F20B1973D9250082A2EF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A91F1EF1973D9250082A2EF /* googleLoginDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1A91F1F81973D9250082A2EF /* AppDelegate.h */,
+				1A91F1F91973D9250082A2EF /* AppDelegate.m */,
+				1A91F1FB1973D9250082A2EF /* Main_iPhone.storyboard */,
+				1A91F1FE1973D9250082A2EF /* Main_iPad.storyboard */,
+				1A91F2011973D9250082A2EF /* ViewController.h */,
+				1A91F2021973D9250082A2EF /* ViewController.m */,
+				1A91F2041973D9250082A2EF /* Images.xcassets */,
+				1A91F1F01973D9250082A2EF /* Supporting Files */,
+			);
+			path = googleLoginDemo;
+			sourceTree = "<group>";
+		};
+		1A91F1F01973D9250082A2EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A91F1F11973D9250082A2EF /* googleLoginDemo-Info.plist */,
+				1A91F1F21973D9250082A2EF /* InfoPlist.strings */,
+				1A91F1F51973D9250082A2EF /* main.m */,
+				1A91F1F71973D9250082A2EF /* googleLoginDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A91F2111973D9250082A2EF /* googleLoginDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A91F2171973D9250082A2EF /* googleLoginDemoTests.m */,
+				1A91F2121973D9250082A2EF /* Supporting Files */,
+			);
+			path = googleLoginDemoTests;
+			sourceTree = "<group>";
+		};
+		1A91F2121973D9250082A2EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A91F2131973D9250082A2EF /* googleLoginDemoTests-Info.plist */,
+				1A91F2141973D9250082A2EF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A91F1E51973D9250082A2EF /* googleLoginDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A91F21B1973D9250082A2EF /* Build configuration list for PBXNativeTarget "googleLoginDemo" */;
+			buildPhases = (
+				1A91F1E21973D9250082A2EF /* Sources */,
+				1A91F1E31973D9250082A2EF /* Frameworks */,
+				1A91F1E41973D9250082A2EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = googleLoginDemo;
+			productName = googleLoginDemo;
+			productReference = 1A91F1E61973D9250082A2EF /* googleLoginDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A91F2091973D9250082A2EF /* googleLoginDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A91F21E1973D9250082A2EF /* Build configuration list for PBXNativeTarget "googleLoginDemoTests" */;
+			buildPhases = (
+				1A91F2061973D9250082A2EF /* Sources */,
+				1A91F2071973D9250082A2EF /* Frameworks */,
+				1A91F2081973D9250082A2EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A91F2101973D9250082A2EF /* PBXTargetDependency */,
+			);
+			name = googleLoginDemoTests;
+			productName = googleLoginDemoTests;
+			productReference = 1A91F20A1973D9250082A2EF /* googleLoginDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A91F1DE1973D9250082A2EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = coretronic;
+				TargetAttributes = {
+					1A91F2091973D9250082A2EF = {
+						TestTargetID = 1A91F1E51973D9250082A2EF;
+					};
+				};
+			};
+			buildConfigurationList = 1A91F1E11973D9250082A2EF /* Build configuration list for PBXProject "googleLoginDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A91F1DD1973D9250082A2EF;
+			productRefGroup = 1A91F1E71973D9250082A2EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A91F1E51973D9250082A2EF /* googleLoginDemo */,
+				1A91F2091973D9250082A2EF /* googleLoginDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A91F1E41973D9250082A2EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A91F2001973D9250082A2EF /* Main_iPad.storyboard in Resources */,
+				1A91F2051973D9250082A2EF /* Images.xcassets in Resources */,
+				1A91F1FD1973D9250082A2EF /* Main_iPhone.storyboard in Resources */,
+				1A91F1F41973D9250082A2EF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A91F2081973D9250082A2EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A91F2161973D9250082A2EF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A91F1E21973D9250082A2EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A91F2031973D9250082A2EF /* ViewController.m in Sources */,
+				1A91F1FA1973D9250082A2EF /* AppDelegate.m in Sources */,
+				1A91F1F61973D9250082A2EF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A91F2061973D9250082A2EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A91F2181973D9250082A2EF /* googleLoginDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A91F2101973D9250082A2EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A91F1E51973D9250082A2EF /* googleLoginDemo */;
+			targetProxy = 1A91F20F1973D9250082A2EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A91F1F21973D9250082A2EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A91F1F31973D9250082A2EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1A91F1FB1973D9250082A2EF /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A91F1FC1973D9250082A2EF /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		1A91F1FE1973D9250082A2EF /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A91F1FF1973D9250082A2EF /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		1A91F2141973D9250082A2EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A91F2151973D9250082A2EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A91F2191973D9250082A2EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A91F21A1973D9250082A2EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A91F21C1973D9250082A2EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "googleLoginDemo/googleLoginDemo-Prefix.pch";
+				INFOPLIST_FILE = "googleLoginDemo/googleLoginDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A91F21D1973D9250082A2EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "googleLoginDemo/googleLoginDemo-Prefix.pch";
+				INFOPLIST_FILE = "googleLoginDemo/googleLoginDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1A91F21F1973D9250082A2EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/googleLoginDemo.app/googleLoginDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "googleLoginDemo/googleLoginDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "googleLoginDemoTests/googleLoginDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1A91F2201973D9250082A2EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/googleLoginDemo.app/googleLoginDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "googleLoginDemo/googleLoginDemo-Prefix.pch";
+				INFOPLIST_FILE = "googleLoginDemoTests/googleLoginDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A91F1E11973D9250082A2EF /* Build configuration list for PBXProject "googleLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A91F2191973D9250082A2EF /* Debug */,
+				1A91F21A1973D9250082A2EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A91F21B1973D9250082A2EF /* Build configuration list for PBXNativeTarget "googleLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A91F21C1973D9250082A2EF /* Debug */,
+				1A91F21D1973D9250082A2EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A91F21E1973D9250082A2EF /* Build configuration list for PBXNativeTarget "googleLoginDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A91F21F1973D9250082A2EF /* Debug */,
+				1A91F2201973D9250082A2EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A91F1DE1973D9250082A2EF /* Project object */;
+}
