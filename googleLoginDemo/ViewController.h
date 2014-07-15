@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <GooglePlus/GooglePlus.h>
+@class GPPSignInButton;
+@interface ViewController : UIViewController<GPPSignInDelegate>
+@property (retain, nonatomic) IBOutlet GPPSignInButton *signInButton;
 
-@interface ViewController : UIViewController
+@property (retain, nonatomic) IBOutlet UIButton *signOutButton;
+
+- (IBAction)signOutBtn:(id)sender;
 
 @end

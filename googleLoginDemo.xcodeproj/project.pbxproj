@@ -22,6 +22,9 @@
 		1A91F20E1973D9250082A2EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A91F1ED1973D9250082A2EF /* UIKit.framework */; };
 		1A91F2161973D9250082A2EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F2141973D9250082A2EF /* InfoPlist.strings */; };
 		1A91F2181973D9250082A2EF /* googleLoginDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F2171973D9250082A2EF /* googleLoginDemoTests.m */; };
+		1A91F2241973DAA60082A2EF /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A91F2211973DAA60082A2EF /* GoogleOpenSource.framework */; };
+		1A91F2251973DAA60082A2EF /* GooglePlus.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F2221973DAA60082A2EF /* GooglePlus.bundle */; };
+		1A91F2261973DAA60082A2EF /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A91F2231973DAA60082A2EF /* GooglePlus.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		1A91F2131973D9250082A2EF /* googleLoginDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "googleLoginDemoTests-Info.plist"; sourceTree = "<group>"; };
 		1A91F2151973D9250082A2EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1A91F2171973D9250082A2EF /* googleLoginDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = googleLoginDemoTests.m; sourceTree = "<group>"; };
+		1A91F2211973DAA60082A2EF /* GoogleOpenSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleOpenSource.framework; sourceTree = "<group>"; };
+		1A91F2221973DAA60082A2EF /* GooglePlus.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GooglePlus.bundle; sourceTree = "<group>"; };
+		1A91F2231973DAA60082A2EF /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlus.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +68,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A91F2261973DAA60082A2EF /* GooglePlus.framework in Frameworks */,
 				1A91F1EC1973D9250082A2EF /* CoreGraphics.framework in Frameworks */,
 				1A91F1EE1973D9250082A2EF /* UIKit.framework in Frameworks */,
+				1A91F2241973DAA60082A2EF /* GoogleOpenSource.framework in Frameworks */,
 				1A91F1EA1973D9250082A2EF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,6 +111,9 @@
 		1A91F1E81973D9250082A2EF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1A91F2211973DAA60082A2EF /* GoogleOpenSource.framework */,
+				1A91F2221973DAA60082A2EF /* GooglePlus.bundle */,
+				1A91F2231973DAA60082A2EF /* GooglePlus.framework */,
 				1A91F1E91973D9250082A2EF /* Foundation.framework */,
 				1A91F1EB1973D9250082A2EF /* CoreGraphics.framework */,
 				1A91F1ED1973D9250082A2EF /* UIKit.framework */,
@@ -232,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A91F2001973D9250082A2EF /* Main_iPad.storyboard in Resources */,
+				1A91F2251973DAA60082A2EF /* GooglePlus.bundle in Resources */,
 				1A91F2051973D9250082A2EF /* Images.xcassets in Resources */,
 				1A91F1FD1973D9250082A2EF /* Main_iPhone.storyboard in Resources */,
 				1A91F1F41973D9250082A2EF /* InfoPlist.strings in Resources */,
@@ -390,9 +402,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "googleLoginDemo/googleLoginDemo-Prefix.pch";
 				INFOPLIST_FILE = "googleLoginDemo/googleLoginDemo-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -403,9 +420,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "googleLoginDemo/googleLoginDemo-Prefix.pch";
 				INFOPLIST_FILE = "googleLoginDemo/googleLoginDemo-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
